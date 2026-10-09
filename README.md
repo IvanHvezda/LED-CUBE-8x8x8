@@ -1,13 +1,12 @@
-<p align="center">
-  <img src="readmefoto.png" width="400">
-</p>
-## LED kostka 8×8×8
+# LED kostka 8×8×8
 
 Maturitní práce, SPŠ na Proseku, obor Elektrotechnika, 2024.
 512 LED diod, vlastní deska plošného spoje navržená v KiCadu,
-ovládání mobilní aplikací MIT app inventor přes Bluetooth.
+ovládání mobilní aplikací MIT App Inventor přes Bluetooth.
 
-
+<p align="center">
+  <img src="readmefoto.png" width="400">
+</p>
 
 **▶ [Video ukázka](https://youtu.be/GqQKeZAHj2E)**
 
