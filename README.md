@@ -27,7 +27,6 @@ Textová část maturitní práce leží přímo v kořeni repozitáře:
 - [Maturitní práce (DOCX)](hvezdiv20.docx)
 - [Popis zip souboru](Popis%20zip%20souboru.txt)
 
-Ivan Hvězda · [free.hvezda.lance@gmail.com]
 
 
 ---
@@ -108,4 +107,6 @@ třeba 3D tetris nebo 3D snake.
 Rozšířit projekt na LED kostku 32x32x32.
 
 
+
+Ivan Hvězda · free.hvezda.lance@gmail.com
 
