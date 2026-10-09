@@ -1,4 +1,4 @@
-# LED kostka 8×8×8
+## LED kostka 8×8×8
 
 Maturitní práce, SPŠ na Proseku, obor Elektrotechnika, 2024.
 512 LED diod, vlastní deska plošného spoje navržená v KiCadu,
@@ -6,11 +6,11 @@ ovládání mobilní aplikací MIT app inventor přes Bluetooth.
 
 ![LED kostka v provozu](docs/cube-dark.jpg)
 
-**▶ [Video ukázka]([https://youtu.be/GqQKeZAHj2E])**
+**▶ [Video ukázka](https://youtu.be/GqQKeZAHj2E)**
 
 ---
 
-Co to umí
+## Co to umí
 
 - 29 zobrazovacích funkcí — animace deště, 3D matrix, rotující krychle, padající kapky
 - zobrazení času a data (RTC modul), teploty a vlhkosti (čidlo DHT)
@@ -18,7 +18,7 @@ Co to umí
 - režim náhodných animací
 - signalizační LED stavu spárování
 
-Technické řešení
+## Technické řešení
 
 | | |
 | --- | --- |
@@ -34,7 +34,7 @@ Technické řešení
 | Konstrukce | dřevěná skříň, kryt z plexiskla, krytí IP20 |
 | Rozměry | 260 × 260 × 380 mm |
 
-Proč Arduino Mega
+## Proč Arduino Mega
 
 Vybíral jsem mezi Raspberry Pi Zero, ESP32 a Arduinem Mega podle čtyř
 kritérií: počet pinů, velikost paměti, programovací jazyk a cena.
@@ -45,14 +45,14 @@ počtu pinů — dnes vím, že se u něj piny dají přemapovat, takže to
 rozhodnutí stálo na mojí neznalosti. Arduino Mega nabídlo 54 pinů
 a dostatečnou paměť za cenu externího Bluetooth modulu.
 
-Jak funguje adresování
+## Jak funguje adresování
 
 Matice je rozdělená na 64 sloupců a 8 vrstev. Rozsvícení konkrétní
 diody znamená nastavit její sloupec a její vrstvu — funguje to jako
 souřadnice. Posuvné registry umožnily ovládat 64 sloupců pouhými
 24 datovými piny.... 8 x (data, latch, clock) místo 64.
 
-Co bych dnes udělal jinak
+## Co bych dnes udělal jinak
 
 Buzení vrstev Osm vrstev jsem spínal přímo digitálními piny
 Arduina. Při rozsvícené vrstvě tak jedním pinem teče proud všech
@@ -81,12 +81,12 @@ EEPROM paměť AT24C256. Potom by se na kostce dala naprogramovat jednoduchá 3D
 třeba 3D tetris nebo 3D snake.
 
 
-Plán do budoucna
+## Plán do budoucna
 
 Rozšířit projekt na LED kostku 32x32x32.
 
 
-Obsah repozitáře
+## Obsah repozitáře
 
 ```
 hardware/    schéma, layout, Gerbery (KiCad)
