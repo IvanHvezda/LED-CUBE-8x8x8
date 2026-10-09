@@ -1,3 +1,4 @@
+[hlavnifotka.pdf](https://github.com/user-attachments/files/33261687/hlavnifotka.pdf)
 ## LED kostka 8×8×8
 
 Maturitní práce, SPŠ na Proseku, obor Elektrotechnika, 2024.
