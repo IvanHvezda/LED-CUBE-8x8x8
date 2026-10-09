@@ -1,0 +1,18 @@
+Popis zip souboru
+Hvězda Ivan 4.EB
+
+v první části se nachází finální video funkčnosti konceptu a textový dokument s popisem zip souboru
+ Dále jsou zde rozdělené soubory do složek:
+	
+Elektrická část:
+	V elektrické části lze najít KiCad soubory, schéma, blokové schéma, návrh dps a seznam součástek, obrázky projektu
+Konstrukce: 
+	V konstrukční části lze najít dále se zde nachází 3D model a obrázky hotové konstrukce
+Program:
+	Zde můžete najít kód s koncovkou .ino a kódy s koncovkou .h v souboru hvezdiv20 - kód, vývojový diagram
+Aplikace:
+	V této části lze nalézt blokový program aplikace, prostředí aplikace a video, jak aplikace funguje
+Média:
+	V této část lze nalézt videa ohledně Konečného testu a funkčnosti aplikace
+
+
