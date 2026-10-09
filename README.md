@@ -25,12 +25,6 @@ Textová část maturitní práce leží přímo v kořeni repozitáře:
 - [Maturitní práce (DOCX)](hvezdiv20.docx)
 - [Popis zip souboru](Popis%20zip%20souboru.txt)
 
-Textová část maturitní práce leží přímo v kořeni repozitáře:
-
-- [Maturitní práce (PDF)](hvezdiv20.pdf)
-- [Maturitní práce (DOCX)](hvezdiv20.docx)
-
-
 Ivan Hvězda · [free.hvezda.lance@gmail.com]
 
 
