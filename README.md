@@ -5,7 +5,34 @@ Maturitní práce, SPŠ na Proseku, obor Elektrotechnika, 2024.
 ovládání mobilní aplikací MIT app inventor přes Bluetooth.
 
 
+
 **▶ [Video ukázka](https://youtu.be/GqQKeZAHj2E)**
+
+
+---
+
+## Obsah repozitáře
+
+- **[Elektrická část](Elektrick%C3%A1%20%C4%8D%C3%A1st/)** — KiCad projekt, schéma, blokové schéma, návrh DPS, seznam součástek, fotky elektroniky
+- **[Konstrukce](Konstrukce/)** — fotky hotové konstrukce
+- **[Program](Program/)** — kód hvezdiv20: hlavní `.ino` soubor, hlavičkové `.h` soubory, vývojový diagram
+- **[Aplikace](Aplikace/)** — blokový program, prostředí aplikace
+- **[Média](M%C3%A9dia/)** — Obrázky
+
+Textová část maturitní práce leží přímo v kořeni repozitáře:
+
+- [Maturitní práce (PDF)](hvezdiv20.pdf)
+- [Maturitní práce (DOCX)](hvezdiv20.docx)
+- [Popis zip souboru](Popis%20zip%20souboru.txt)
+
+Textová část maturitní práce leží přímo v kořeni repozitáře:
+
+- [Maturitní práce (PDF)](hvezdiv20.pdf)
+- [Maturitní práce (DOCX)](hvezdiv20.docx)
+
+
+Ivan Hvězda · [free.hvezda.lance@gmail.com]
+
 
 ---
 
@@ -85,28 +112,4 @@ třeba 3D tetris nebo 3D snake.
 Rozšířit projekt na LED kostku 32x32x32.
 
 
-## Obsah repozitáře
-
-## Obsah repozitáře
-
-```
-Elektrická část/   KiCad projekt, schéma, blokové schéma, návrh DPS,
-                   seznam součástek, fotky elektroniky
-Konstrukce/        3D model a fotky hotové konstrukce
-Program/           kód hvezdiv20 — hlavní .ino soubor a hlavičkové .h soubory,
-                   vývojový diagram
-Aplikace/          blokový program, prostředí aplikace, video funkčnosti
-Média/             videa z konečného testu a z ovládání aplikací
-```
-
-Textová část maturitní práce leží přímo v kořeni repozitáře:
-
-- [Maturitní práce (PDF)](hvezdiv20.pdf)
-- [Maturitní práce (DOCX)](hvezdiv20.docx)
-
-- [Schéma v PDF](hardware/schematic.pdf)
-- [Elektrická část](Elektrick%C3%A1%20%C4%8D%C3%A1st/)
-
-
-Ivan Hvězda · [free.hvezda.lance@gmail.com]
 
