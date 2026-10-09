@@ -1,4 +1,6 @@
-![LED kostka v provozu](readmefoto.png)
+<p align="center">
+  <img src="readmefoto.png" width="400">
+</p>
 ## LED kostka 8×8×8
 
 Maturitní práce, SPŠ na Proseku, obor Elektrotechnika, 2024.
