@@ -85,7 +85,7 @@ Arduina. Při rozsvícené vrstvě tak jedním pinem teče proud všech
 64 diod, zatímco pin ATmega2560 má doporučený proud 20 mA a absolutní
 maximum 40 mA. Pin si proud omezil vlastní výstupní impedancí — proto
 diody svítily zhruba na polovinu jasu a celkový odběr vyšel kolem
-170 mA. Zařízení fungovalo spíš navzdory
+152 mA. Zařízení fungovalo spíš navzdory
 návrhu než díky němu.
 
 Správné řešení: MOSFETy na spínání vrstev,
