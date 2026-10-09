@@ -4,7 +4,6 @@ Maturitní práce, SPŠ na Proseku, obor Elektrotechnika, 2024.
 512 LED diod, vlastní deska plošného spoje navržená v KiCadu,
 ovládání mobilní aplikací MIT app inventor přes Bluetooth.
 
-![LED kostka v provozu](docs/cube-dark.jpg)
 
 **▶ [Video ukázka](https://youtu.be/GqQKeZAHj2E)**
 
