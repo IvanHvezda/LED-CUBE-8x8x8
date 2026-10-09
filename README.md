@@ -23,7 +23,7 @@ ovládání mobilní aplikací MIT app inventor přes Bluetooth.
 | --- | --- |
 | Řídicí jednotka | Arduino Mega 2560 |
 | Zobrazovač | 512× červená LED 5 mm, matice 8×8×8 |
-| Řízení sloupců | 8× posuvný registr SN74HC595 (64 sloupců, 3 datové piny) |
+| Řízení sloupců | 8× posuvný registr SN74HC595 (64 sloupců, 24 datových pinů) |
 | Řízení vrstev | 8 digitálních pinů přímo z Arduina |
 | Multiplex | po vrstvách, střída 1/8 |
 | Komunikace | UART → Bluetooth modul HC-05 |
@@ -103,11 +103,9 @@ Textová část maturitní práce leží přímo v kořeni repozitáře:
 
 - [Maturitní práce (PDF)](hvezdiv20.pdf)
 - [Maturitní práce (DOCX)](hvezdiv20.docx)
-- [Popis zip souboru](Popis%20zip%20souboru.txt)
 
 - [Schéma v PDF](hardware/schematic.pdf)
-- [Text maturitní práce](docs/led-kostka-prace.pdf)
-
+- [Elektrická část](Elektrick%C3%A1%20%C4%8D%C3%A1st/)
 
 
 Ivan Hvězda · [free.hvezda.lance@gmail.com]
