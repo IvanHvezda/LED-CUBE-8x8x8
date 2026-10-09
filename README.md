@@ -87,12 +87,23 @@ Rozšířit projekt na LED kostku 32x32x32.
 
 ## Obsah repozitáře
 
+## Obsah repozitáře
+
 ```
-hardware/    schéma, layout, Gerbery (KiCad)
-firmware/    .ino a hlavičkové soubory
-app/         aplikace (MIT App Inventor)
-docs/        fotky, text maturitní práce
+Elektrická část/   KiCad projekt, schéma, blokové schéma, návrh DPS,
+                   seznam součástek, fotky elektroniky
+Konstrukce/        3D model a fotky hotové konstrukce
+Program/           kód hvezdiv20 — hlavní .ino soubor a hlavičkové .h soubory,
+                   vývojový diagram
+Aplikace/          blokový program, prostředí aplikace, video funkčnosti
+Média/             videa z konečného testu a z ovládání aplikací
 ```
+
+Textová část maturitní práce leží přímo v kořeni repozitáře:
+
+- [Maturitní práce (PDF)](hvezdiv20.pdf)
+- [Maturitní práce (DOCX)](hvezdiv20.docx)
+- [Popis zip souboru](Popis%20zip%20souboru.txt)
 
 - [Schéma v PDF](hardware/schematic.pdf)
 - [Text maturitní práce](docs/led-kostka-prace.pdf)
