@@ -75,13 +75,17 @@ souřadnice. Posuvné registry umožnily ovládat 64 sloupců pouhými
 
 ## Co bych dnes udělal jinak
 
-Buzení vrstev Osm vrstev jsem spínal přímo digitálními piny
-Arduina. Při rozsvícené vrstvě tak jedním pinem teče proud všech
-64 diod, zatímco pin ATmega2560 má doporučený proud 20 mA a absolutní
-maximum 40 mA. Pin si proud omezil vlastní výstupní impedancí — proto
-diody svítily zhruba na polovinu jasu a celkový odběr vyšel kolem
-152 mA. Zařízení fungovalo spíš navzdory
-návrhu než díky němu.
+**Buzení vrstev.** Osm vrstev spínám přímo digitálními piny Arduina.
+Při rozsvícené vrstvě tak jedním pinem teče proud všech 64 diod dané
+vrstvy — ATmega2560 má přitom doporučeno 20 mA na pin a absolutní
+maximum 40 mA. Návrh tedy nemá žádnou rezervu: jakmile bych proud
+na diodu zvýšil na běžných 10 mA, pinem by teklo přes půl ampéru
+a zničilo by ho to.
+
+Naměřený odběr celé kostky při plném rozsvícení je 152 mA, což
+odpovídá zlomkům miliampéru na diodu. Proud tedy neurčuje návrh,
+ale kombinace sériových rezistorů a sdílené cesty do země přes
+společný pin vrstvy. Přesně to není spočítané.
 
 Správné řešení: MOSFETy na spínání vrstev,
 případně konstantně proudový budič typu TLC5940, aby proud určoval
