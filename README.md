@@ -87,9 +87,7 @@ odpovídá zlomkům miliampéru na diodu. Proud tedy neurčuje návrh,
 ale kombinace sériových rezistorů a sdílené cesty do země přes
 společný pin vrstvy. Přesně to není spočítané.
 
-Správné řešení: MOSFETy na spínání vrstev,
-případně konstantně proudový budič typu TLC5940, aby proud určoval
-návrh a ne parametry čipu.
+Správné řešení: MOSFETy na spínání vrstev.
 
 Mechanika. Vodiče mezi deskou a LED konstrukcí jsem navrhl příliš
 krátké, takže se při manipulaci uvolňovaly z konektorů a občas
